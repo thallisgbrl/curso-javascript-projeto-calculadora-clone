@@ -111,7 +111,8 @@
         [type=reset],
         [type=submit],
         button {
-            -webkit-appearance: button
+            -webkit-appearance: button;
+            appearance: button;
         }
 
         [type=button]::-moz-focus-inner,
@@ -151,6 +152,7 @@
 
         [type=search] {
             -webkit-appearance: textfield;
+            appearance: button;
             outline-offset: -2px
         }
 
@@ -1809,6 +1811,8 @@
 
         </div>
     </div>
+    <script src="scripts/controller/CalcController.js"></script>
+    <script src="scripts/calculadora.js"></script>
 </body>
 
 </html>
